@@ -1,0 +1,16 @@
+h1 {
+    color: #336699;
+    text-align: center;
+}
+#cnt_superior {
+    background-color: bisque;
+    margin-top: 300px;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+#cnt_central {
+    background-color: #d7ffc4;
+}
+#cnt_inferior {
+    background-color: #c4caff;
+}

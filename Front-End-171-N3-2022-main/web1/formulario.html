@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title> Calculando el peso ideal</title>
+        <!-- Vinculamos Archivo Javascript-->
+        <script src="js/funciones.js" language="javascript"></script>
+    </head>
+    <body>
+        <!-- Contenedor superior-->
+        <div id="cnt_superior">
+            <h1>Calculando el peso ideal</h1>
+            <hr>
+            <h2>Ingrese los datos solicitados</h2>
+        </div>
+        <!-- Contenedor formulario-->
+        <div id="cnt_formulario">
+            <form>
+                <table border="0">
+                    <tr>
+                        <td><label>Edad</label></td>
+                        <td><input type="text" id="txt_edad"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Peso Actual</label></td>
+                        <td><input type="text" id="txt_peso_actual"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="button" value="Calcular" onclick="calcularPesoIdeal();" ></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <!-- Contenedor de resultado-->
+        <div id="cnt_resultado_texto_peso_ideal"></div>
+        <div id="cnt_resultado_texto_estado_peso"></div>
+        <div id="cnt_resultado_imagen_estado_peso"></div>
+    </body>
+</html>
